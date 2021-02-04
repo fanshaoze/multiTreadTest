@@ -11,6 +11,7 @@ def isprime(n):
         return True
     max = int(math.ceil(math.sqrt(n)))
     i = 2
+    i = 2
     while i <= max:
         if n % i == 0:
             return False
